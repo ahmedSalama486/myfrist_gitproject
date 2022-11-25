@@ -1,1 +1,16 @@
+on:
+  push:
+    pranches:
+      -master
 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+      steps:
+        - name: 'test github action'
+          run: pwd
+
+           - name: 'test print'
+          run: echo Ahmed
