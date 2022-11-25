@@ -1,6 +1,6 @@
 on:
   push:
-    pranches:
+    branches:
       -master
 
 
@@ -9,8 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
       steps:
-        - name: 'test github action'
-          run: pwd
+        - name: 'print'
+          run: ls
 
-           - name: 'test print'
-          run: echo Ahmed
+         
